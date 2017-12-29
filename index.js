@@ -21,4 +21,5 @@ function deepestChild() {
     child = next;
     next = child.children[0];
   }
+  return child.innerHTML
 }
